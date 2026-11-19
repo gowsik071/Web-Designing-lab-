@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // if-else
+
+        a=10;
+        if(a==10){
+             document.write("a is 10 only");
+
+        }
+       
+        else {
+            document.write("a is not 10");
+        }
+
+        // If- Else if- Else
+
+        // User Input
+
+        a=prompt("Enter your number:");
+        if (a>0){
+            document.write("Your number is Positive");
+        }
+        else if (a<0){
+            document.write("Your number id negative");
+        }
+        else{
+            document.write("Your number is Zero");
+        }
+        
+        // Nested if-else
+        
+        username="evergreen"
+        password="123"
+        user=prompt("Enter Username:");
+        pass=prompt("Enter Password");
+        if (user==username){
+            document.write("Username is- Verified");
+            if (pass==password){
+                document.write("login-Successful!");
+            }
+       
+            else{
+                document.write("Invalid password!")
+
+            }
+
+        }
+
+        else{
+            document.write("Invalid-username!")
+        }
+    </script>
+        
+</body>
+</html>
