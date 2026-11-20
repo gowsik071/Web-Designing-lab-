@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="mat"></h1>
+    <h1 id="a"></h1>
+    <h3 class="b"></h3>
+    <h1 class="c"></h1>
+    <h2 class="d"></h2>
+    <h3 class="e"></h3>
+    <h4 class="f"></h4>
+    <script>
+        document.getElementById("mat").innerHTML=Math.PI;
+
+        document.getElementById("a").innerHTML=Math.sqrt(6);
+
+        document.querySelector(".b").innerHTML=Math.min(10,20,4,30,50,1);
+
+        document.querySelector(".c").innerHTML=Math.max(20,40,200,250,206,350,449,567);
+
+        document.querySelector(".d").innerHTML=Math.pow(10,2);
+
+        document.querySelector(".e").innerHTML=Math.sin(10);
+
+        document.querySelector(".f").innerHTML=Math.random(2,14);
+
+
+    </script>
+</body>
+</html>
