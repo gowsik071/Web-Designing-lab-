@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+
+    // String built-in functions
+
+    var a = "BestCooking";
+    var b = "WinningAward";
+    document.write(a,"<br>");
+    document.write(b,"<br>");
+    document.write(a.charAt(4),"<br>");
+    document.write(b.charAt(6),"<br>");
+    document.write(a.endsWith("e"),"<br>");
+    document.write(b.endsWith("d"),"<br>");
+    document.write(a.includes("Bast"),"<br>");
+    document.write(b.includes("Award"),"<br>");
+    document.write(a.indexOf("C"),"<br>");
+    document.write(b.indexOf("d"),"<br>");
+    document.write(a.lastIndexOf("g"),"<br>");
+    document.write(b.lastIndexOf("r"),"<br>");
+    document.write(a.length,"<br>");
+    document.write(b.length,"<br>");
+    document.write(a.match("a"),"<br>");
+    document.write(b.match("t"),"<br>");
+    document.write(a.padStart(20,"*"),"<br>");
+    document.write(b.padStart(25,"&"),"<br>");
+    document.write(a.padEnd(24,"^"),"<br>");
+    document.write(b.padEnd(23,"@"),"<br>");
+    document.write(a.repeat(2),"<br>");
+    document.write(b.repeat(5),"<br>");
+    document.write(a.search("e"),"<br>");
+    document.write(b.search("d"),"<br>");
+    document.write(a.slice(2,5),"<br>");
+    document.write(b.slice(3,7),"<br>");
+    document.write(a.substring(5,8),"<br>");
+    document.write(b.substring(3,7),"<br>");
+    document.write(a.split("e"),"<br>");
+    document.write(b.split("A"),"<br>");
+    document.write(a.toLowerCase(),"<br>");
+    document.write(b.toLowerCase(),"<br>");
+    document.write(a.toUpperCase(),"<br>");
+    document.write(b.toUpperCase(),"<br>");
+    c=a.trim();
+    document.write(c.length,"<br>");
+    document.write(c,"<br>");
+   
+  
+   </script>
+</body>
+</html>
