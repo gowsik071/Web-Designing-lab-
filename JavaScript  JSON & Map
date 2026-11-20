@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="a"></h1>
+    <h2 id="b"></h2>
+    <script>
+        mech={
+            "name":"Gowsik",
+            "age":22,
+            "clg":"MIT",
+            "dept":"Mechanical",
+            "reg":6111623
+
+        };
+        var a=JSON.stringify(mech);
+        document.write(mech.name,"<br>");
+        document.write(mech.age,"<br>");
+        document.write(a);
+
+
+        var college=new Map([
+        ["name", "Gowsik"],
+        ["age" ,22],
+        ["clg" ,"MIT"],
+        ["dept" ,"Mechanical"],
+        ["reg" ,6111623]
+        ]);
+
+       document.getElementById("b").innerHTML=college.get("name");
+
+       document.getElementById("b").innerHTML=college.get("dept")
+
+       document.write(
+         college.get("name"),"<br>",
+         college.get("age"),"<br>",
+         college.get("clg"), "<br>",
+         college.get("dept"),"<br>",
+         college.get("reg")
+
+    );
+
+    </script>
+</body>
+</html>
