@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // Functions
+
+        // without argument
+
+        function js(){
+            a=10
+            b=20
+            document.write(a+b,"<br>")
+
+        }
+        a=js()
+
+        // with return
+        
+        function fun(){
+            return "e-com"
+
+        }
+        document.write(fun(),"<br>")
+
+        // with arguments
+        
+        function k(a){
+            document.write(a," welcome","<br>")
+        }
+        k("hello")
+
+        // arrow function
+
+        var a=()=>{
+            document.write("arrow function","<br>")
+        }
+        a()
+
+        add= (a,b)=>{
+            document.write(a+b,"<br>")
+
+        }
+        add(10,20)
+
+        b=(a,b)=>{
+            document.write(a-b,"<br>")
+        }
+        b(5,2)
+
+
+    //   nested function
+   function one(p) {
+      function two(t) {
+
+        return p + t;
+    }
+       return two;
+    }
+
+
+    document.write(one(5)(6)); 
+    </script>
+</body>
+</html>
